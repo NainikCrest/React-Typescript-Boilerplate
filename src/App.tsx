@@ -7,7 +7,7 @@ function App() {
         React App - {process.env.NODE_ENV} {process.env.name}
       </h1>
     </div>
-  )
+  ) 
 }
 
 export default App

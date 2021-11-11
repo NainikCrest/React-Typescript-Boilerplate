@@ -41,18 +41,6 @@ module.exports = {
       template: path.resolve(__dirname, '..', './public/index.html'),
       favicon: path.resolve(__dirname, '..', './public/favicon.ico'),
     }),
-    new CopyPlugin({
-      patterns: [
-        {
-          from: path.resolve(__dirname, '..', './public/manifest.json'),
-          to: path.resolve(__dirname, '..', './build/manifest.json'),
-        },
-        {
-          from: path.resolve(__dirname, '..', './public/logo192.png'),
-          to: path.resolve(__dirname, '..', './build/logo192.png'),
-        },
-      ],
-    }),
     // new CopyPlugin({
     //   patterns: [{ from: 'source', to: 'dest' }],
     // }),
