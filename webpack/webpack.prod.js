@@ -5,6 +5,9 @@ const BundleAnalyzerPlugin =
 module.exports = {
   mode: 'production',
   devtool: 'source-map',
+  devServer: {
+    open: true,
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env.name': JSON.stringify('Code-Evolution'),
